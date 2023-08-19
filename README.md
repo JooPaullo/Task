@@ -228,6 +228,10 @@ A alteração do diretório pode ser realizada através do comando abaixo:
 
 	git remote show origin
 	
+### Remover um repositório remoto
+	
+	git remote remove origin 
+
 ### Renomear um repositório remoto 
 
 	git remote rename origin curso-git
