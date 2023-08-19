@@ -12,6 +12,11 @@
 3 - Terceir parte
 4 - Quarta Modificação
 5 - Quinto Development
+6 - Mudou de repositorio
+
+
+
+
 
 ###### Começando com o git
 
