@@ -115,6 +115,17 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 ##### Adicionar um arquivo que esta listado no .gitignore (geral ou do repositório)
 	
 	git add -f arquivo_no_gitignore.txt
+
+
+##### Adicionar chave ssh para assinar commit e tag 
+	
+	 pbcopy < keypass.pub 
+	 git config --global gpg.format ssh
+	 git config --global user.signinKey '<cole a chave ssh aqui>'
+	 git config --global commit.gpgsign true
+	 git config --global tag.gpgsign true
+	 eval "$(ssh-agent -s)"     	
+	 ssh-add <cole a chave aqui> 
 	
 ### Comitar arquivo/diretório
 
