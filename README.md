@@ -116,6 +116,14 @@ Os nomes de arquivos/diretórios ou extensões de arquivos listados no arquivo *
 	
 	git add -f arquivo_no_gitignore.txt
 
+##### Listar chaves
+
+	ssh-add -L
+
+##### Adicionar sua chave
+ 
+	ssh-add ~/.ssh/id_ed25519 
+
 
 ##### Adicionar chave ssh para assinar commit e tag 
 	
